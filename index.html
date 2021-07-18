@@ -1,0 +1,112 @@
+<html>
+    <head>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+ 
+     <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+ 
+     <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <ol>
+            <br>
+            <button class="btn btn-info" onclick="check1()">Click Me</button>
+            <hr>
+            <div>
+                <li>
+                <b>Test Image - </b><img src="OIP.jpg" class="img-responsive" id="oil">
+                </li>
+                <h5>Output on <b>Google Lens</b>
+                   <span> Honey </span>
+                </h5>
+                <h5> Output on <b>Mobilenet Model</b>
+                   <span id="object1"> pay-phone </span>
+                </h5>
+                <div class="bob3">
+                    <h4>Result - </h4>
+                    <hr>
+                    <h4>Google Lens Is More Accurate </h4>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <li>
+                <b>Test Image - </b><img src="clock.jpg" class="img-responsive" id="clock">
+                </li>
+                <h5>Output on <b>Google Lens</b>
+                   <span> Wall clock </span>
+                </h5>
+                <h5> Output on <b>Mobilenet Model</b>
+                   <span id="object2"> Wall clock </span>
+                </h5>
+                <div class="bob3">
+                    <h4>Result - </h4>
+                    <hr>
+                    <h4>Both Accurate </h4>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <li>
+                <b>Test Image - </b><img src="Nokia-Asha-309.jpg" class="img-responsive" id="phone">
+                </li>
+                <h5>Output on <b>Google Lens</b>
+                   <span> Nokia Asha Series </span>
+                </h5>
+                <h5> Output on <b>Mobilenet Model</b>
+                   <span id="object3"> purse </span>
+                </h5>
+                <div class="bob3">
+                    <h4>Result - </h4>
+                    <hr>
+                    <h4>Google Lens is more Accurate </h4>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <li>
+                <b>Test Image - </b><img src="spoon.jpg" class="img-responsive" id="spoon">
+                </li>
+                <h5>Output on <b>Google Lens</b>
+                   <span> Tea Spoon </span>
+                </h5>
+                <h5> Output on <b>Mobilenet Model</b>
+                   <span id="object4"> wok? </span>
+                </h5>
+                <div class="bob3">
+                    <h4>Result - </h4>
+                    <hr>
+                    <h4>Google Lens is more Accurate </h4>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <li>
+                <b>Test Image - </b><img src="fork.jpg" class="img-responsive" id="fork">
+                </li>
+                <h5>Output on <b>Google Lens</b>
+                   <span>Canadian Silver Fork </span>
+                </h5>
+                <h5> Output on <b>Mobilenet Model</b>
+                   <span id="object5"> revolver? </span>
+                </h5>
+                <div class="bob3">
+                    <h4>Result - </h4>
+                    <hr>
+                    <h4> Google Lens is more Accurate </h4>
+                </div>
+                <hr>
+                <div>
+                    <h3>
+                        In total Google Lens is more accurate with a score of 5 - 1
+                    </h3>
+                </div>
+            </div>
+            <hr>
+        </ol>
+        <script src="main.js"></script>
+    </body>
+</html>
